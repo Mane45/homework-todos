@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 function AddTask({updateTodos}) {
-    const [task, setTask] = useState()
+    const [task, setTask] = useState("")
     const handleChange = (e) => {
         //console.log(e.target.value);
         setTask(e.target.value);

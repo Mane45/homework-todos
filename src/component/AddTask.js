@@ -14,7 +14,7 @@ function AddTask({updateTodos}) {
     
     return(
         <div>
-            <input id="input" type="text" placeholder="add task" onChange={e => handleChange(e)} value={task}/>
+            <input id="input" type="text" placeholder="add task" onChange={handleChange} value={task}/>
             <button onClick={e => addTask(e)}>Add</button>
         </div>
     )
